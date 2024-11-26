@@ -43,6 +43,14 @@ const Form = () => {
 
   return (
     <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md mt-10">
+      {/* Section baru: Gambar di atas form */}
+      <div className="mb-6">
+        <div className="mt-4 text-center">
+          <h2 className="text-lg font-semibold text-gray-800">Banjarmasin, 11-14 Juli 2024</h2>
+          <p className="text-gray-500 text-sm">Lokasi: GOR Panglima - Turnamen Futsal Piala by.U</p>
+        </div>
+      </div>
+
       <div className="mb-4">
         <div className="flex items-center space-x-4">
           <p className="text-gray-500 text-sm font-medium">Data Pemain Piala by.U</p>
