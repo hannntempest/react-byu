@@ -25,6 +25,8 @@ const Form = () => {
     setWarning(""); // Clear the warning if an image is uploaded
   };
 
+  const [isPlayerRegistrationOpen, setIsPlayerRegistrationOpen] = useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -37,8 +39,7 @@ const Form = () => {
     console.log("Form submitted:", formData);
     alert("Form submitted successfully!");
 
-    // Redirect to Success Page
-    router.push("/success");
+    setIsPlayerRegistrationOpen(true);
   };
 
   return (
